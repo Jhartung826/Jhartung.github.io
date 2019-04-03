@@ -1,51 +1,71 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <h1>Sandip Sandhu</h1>
+  <header>
+    <h1>Jeff Hartung</h1>
+  </header>
 
-  <img height="300 widtth="300 src="https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Face_Emoji_large.png?v=1480481056" alt="Your Name">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Jeff Hartung</h2>
+        <img id="bio-image" src="Jeff_Hartung.JPG" alt="Jeff Hartung">
+      </section>
+      <p>Sed id urna condimentum purus aliquet interdum ac quis tellus. Sed elementum dui orci, ac pulvinar tortor sollicitudin varius. Aliquam justo leo, iaculis sit amet est nec, eleifend finibus enim. Praesent magna quam, maximus vel malesuada vel, aliquam pulvinar ante. Duis porta rhoncus quam, ut vulputate arcu vestibulum quis. Donec tincidunt porttitor turpis ut finibus. Nulla quis malesuada metus. Integer velit dui, suscipit quis porta nec, rutrum et arcu. Phasellus eget lorem nec nisl auctor mattis ut sit amet sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam vitae arcu nisl. Pellentesque non mauris at massa condimentum dapibus ut non ante. Cras nec vulputate justo, at feugiat justo. Morbi elit ante, finibus at mauris vel, consectetur vehicula dolor. Maecenas sed lectus sollicitudin, scelerisque quam vel, volutpat sem.<a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
 
-  <p>&nbsp &nbsp &nbsp &nbsp I like passing on what I have learnt professionally. Currently I am teaching a <br>
-    Data Science and Visulaization class at UCSD Extension. The topics in the class  <br>
-    include Python, Pandas, Matpl;otlib, Working with APIs, Social Media Analytics,  <br>
-    Databases, Web Programming, D3.js, Machine learning and Big data applicaitons </p>
-  <p>A second short paragraph about yourself or some placeholder text.</p>
-
-  <ul>
-    <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Hobbit</td>
-      <td>Hot Fuzz</td>
-      <td>Dark Souls</td>
-    </tr>
-    <tr>
-      <td>The Name of the Wind</td>
-      <td>The Avengers</td>
-      <td>The Last of Us</td>
-    </tr>
-    <tr>
-      <td>The Girl With All the Gifts</td>
-      <td>The Matrix</td>
-      <td>Dragon Age: Origins</td>
-    </tr>
-  </table>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">Jeffhartung826@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">Jhartung826</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">https://github.com/Jhartung826</a></li>
+      </ul>
+    </aside>
+  </main>
 
 </body>
-
+<h1><b>Regional Sales Q1:</b></h1>
+    <table border=".5">
+      <tr>
+        <th>Books
+        </th>
+        <th>Movies</th>
+        <th>Games</th>
+      </tr>
+      <tr>
+        <td>Elric Saga</td>
+        <td>Starwars</td>
+        <td>Skyrim</td>
+      </tr>
+      <tr>
+        <td>Lord of the Rings</td>
+        <td>Lord of the Rings</td>
+        <td>ESO: Online</td>
+      </tr>
+      <tr>
+        <td>Mark Twain Books</td>
+        <td>Stargate: SG-1</td>
+        <td>DnD</td>
+      </tr>
+      <tr>
+        <td> Ready Player One</td>
+        <td>Stranger Things</td>
+        <td>Dragon Age</td>
+      </tr>
+    </table>
+    <p>
 </html>
